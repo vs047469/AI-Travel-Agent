@@ -1,0 +1,22 @@
+# fastapi
+# uvicorn
+# langgraph
+# langchain
+# langchain-groq
+# streamlit
+# requests
+# folium
+
+streamlit
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-groq
+langchain-community
+langchain-core
+faiss-cpu
+python-dotenv
+requests
+folium
+pydantic
