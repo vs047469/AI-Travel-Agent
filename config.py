@@ -7,7 +7,7 @@ load_dotenv()
 # ✅ Read environment variables
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "llama-3.3-70b-specdec"
 
 # 🔍 Debug (temporary)
 print("GROQ KEY Loaded:", GROQ_API_KEY is not None)
