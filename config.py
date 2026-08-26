@@ -1,10 +1,17 @@
 import os
 from dotenv import load_dotenv
 
-# ✅ Load .env file
+# -----------------------------------------
+# Load local .env file
+# -----------------------------------------
+
 load_dotenv()
 
-# ✅ Read environment variables
+
+# -----------------------------------------
+# Read API key
+# -----------------------------------------
+
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 MODEL_NAME = "openai/gpt-oss-120b"
